@@ -372,6 +372,15 @@
     
 
 
+    <!-- http://www.w3id.org/hsu-aut/OpcUa#hasEndpointDescription -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3id.org/hsu-aut/OpcUa#hasEndpointDescription">
+        <rdfs:domain rdf:resource="http://www.w3id.org/hsu-aut/OpcUa#UAServer"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/hsu-aut/OpcUa#EndpointDescription"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.w3id.org/hsu-aut/OpcUa#hasEventSource -->
 
     <owl:ObjectProperty rdf:about="http://www.w3id.org/hsu-aut/OpcUa#hasEventSource">
